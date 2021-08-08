@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>proto tock app</title> 
+	<link rel="stylesheet" href="libx/pure.css">
+	<style>
+		body { background-color: black; }
+	</style>
+</head>
+
+<body>
+  <div id="threediv"></div>
+	
+
+<div style="position:fixed; bottom:8px; left:8px; color:#25b;font-family:'Fantasy';white-space:pre;"> p : unpause      a-z : zoom in-out      cursors : rotate      q-w : fast-slow      n : nova      b : beeps      r : restart</div>
+
+</body>
+
+<script>
+  audio = new Audio('res/deepBeepAvator.mp3');
+  audio.volume = 0.5;
+</script>
+
+<script src="libx/three.js"></script> 
+<script src="libx/Detector.js"></script>
+<script src="libx/rStats.js"></script>
+<script src="libx/Fdrandom.js"></script>
+
+<script src="lib/core.js"></script>
+<script src="lib/alter.js"></script>
+<!--<script src="lib/inspect.js"></script>-->
+
+<script src="lib/keysys.js"></script>
+<script src="lib/instructor.js"></script>
+
+</html>

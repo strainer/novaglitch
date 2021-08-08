@@ -1,0 +1,10 @@
+[19-Dec-2015 01:20:43 UTC] PHP Warning:  PHP Startup: mcrypt: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[19-Dec-2015 03:42:04 UTC] PHP Warning:  PHP Startup: mcrypt: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
